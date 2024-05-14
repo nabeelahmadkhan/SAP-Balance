@@ -1,0 +1,1457 @@
+[
+    {
+        "event_date": "2024-04-29",
+        "c_sample_date": "2024-04-29",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.74,
+        "c_old": 3,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-04-29",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-04-28",
+                "event_end_date": "2024-04-29T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 914,
+                        "sample_date": "2024-04-29",
+                        "basic_report_id": 3357,
+                        "recipe_report_id": 3372,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-29.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-29 - Recipe.pdf",
+                        "basic_report_url_name": "14bde9aacefd40c3ac5f1af22faba7ce",
+                        "comparative_report_id": 3358,
+                        "recipe_report_url_name": "f03b885246e64d96807cf5ca3f1ba627",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-29 - Comparative.pdf",
+                        "comparative_report_url_name": "946a5f458fd34211acfbfe38174c7528"
+                    }
+                },
+                "event_start_date": "2024-04-28T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-04-15",
+        "c_sample_date": "2024-04-15",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.06,
+        "c_old": 1.88,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-04-15",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-04-14",
+                "event_end_date": "2024-04-15T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 860,
+                        "sample_date": "2024-04-15",
+                        "basic_report_id": 3154,
+                        "recipe_report_id": 3208,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-15.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-15 - Recipe.pdf",
+                        "basic_report_url_name": "1c53494572454ec08efa12892674eaeb",
+                        "comparative_report_id": 3155,
+                        "recipe_report_url_name": "dc9bf524b20743d49b8ffaeb64d8a600",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-15 - Comparative.pdf",
+                        "comparative_report_url_name": "8db4bda067e74787a23e3286ee061fc0"
+                    }
+                },
+                "event_start_date": "2024-04-14T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-04-06",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2024-04-06",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-04-05",
+                "event_end_date": "2024-04-06T19:09:44+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 553,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-04-05T19:09:44+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-04-01",
+        "c_sample_date": "2024-04-01",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.68,
+        "c_old": 2.71,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-04-01",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-03-31",
+                "event_end_date": "2024-04-01T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 826,
+                        "sample_date": "2024-04-01",
+                        "basic_report_id": 3047,
+                        "recipe_report_id": 3064,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-01.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-01 - Recipe.pdf",
+                        "basic_report_url_name": "0d015d892a194647acffc3e465fa2371",
+                        "comparative_report_id": 3048,
+                        "recipe_report_url_name": "5609dd82e36b4bc4a94b31922899c654",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-04-01 - Comparative.pdf",
+                        "comparative_report_url_name": "6ce5d79b6b7c46048a79348e631073e7"
+                    }
+                },
+                "event_start_date": "2024-03-31T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-03-31",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2024-03-31",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-03-30",
+                "event_end_date": "2024-03-31T19:16:04+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 554,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-03-30T19:16:04+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-03-25",
+        "c_sample_date": "2024-03-25",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.9,
+        "c_old": 3.4,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-03-25",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-03-24",
+                "event_end_date": "2024-03-25T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 755,
+                        "sample_date": "2024-03-25",
+                        "basic_report_id": 2898,
+                        "recipe_report_id": 2937,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-25.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-25 - Recipe.pdf",
+                        "basic_report_url_name": "c657c7f9f45041ecaeb94c0e45cd28ec",
+                        "comparative_report_id": 2899,
+                        "recipe_report_url_name": "21a26807e5204cb4b94233fc84866599",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-25 - Comparative.pdf",
+                        "comparative_report_url_name": "24ca7da150934e2e858430ed7d15eab9"
+                    }
+                },
+                "event_start_date": "2024-03-24T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-03-18",
+        "c_sample_date": "2024-03-18",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 1.6,
+        "c_old": 1.33,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-03-18",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-03-17",
+                "event_end_date": "2024-03-18T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 730,
+                        "sample_date": "2024-03-18",
+                        "basic_report_id": 2809,
+                        "recipe_report_id": 2811,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-18.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-18 - Recipe.pdf",
+                        "basic_report_url_name": "4f0f6cab775a4779a5f599fe58230fe8",
+                        "comparative_report_id": 2810,
+                        "recipe_report_url_name": "8588c78ad55e42f696b25fce3734afa2",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-18 - Comparative.pdf",
+                        "comparative_report_url_name": "d20602dd20fd4cc087ced9c25aad1060"
+                    }
+                },
+                "event_start_date": "2024-03-17T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-03-11",
+        "c_sample_date": "2024-03-11",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.13,
+        "c_old": 1.23,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-03-11",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-03-10",
+                "event_end_date": "2024-03-11T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 713,
+                        "sample_date": "2024-03-11",
+                        "basic_report_id": 2743,
+                        "recipe_report_id": 2745,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-11.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-11 - Recipe.pdf",
+                        "basic_report_url_name": "4776787e2a91438d80e96f3fc5d518bc",
+                        "comparative_report_id": 2744,
+                        "recipe_report_url_name": "52490e5de05a49378eaa4b584aecac37",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-03-11 - Comparative.pdf",
+                        "comparative_report_url_name": "2026fdd01fef43298a4aae34318bea42"
+                    }
+                },
+                "event_start_date": "2024-03-10T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-02-26",
+        "c_sample_date": "2024-02-26",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.11,
+        "c_old": 2.26,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-02-26",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-02-25",
+                "event_end_date": "2024-02-26T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 700,
+                        "sample_date": "2024-02-26",
+                        "basic_report_id": 2630,
+                        "recipe_report_id": 2638,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-26.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-26 - Recipe.pdf",
+                        "basic_report_url_name": "a72f4f24aefc4e49a21a17b3b357d07e",
+                        "comparative_report_id": 2631,
+                        "recipe_report_url_name": "d74ccc6975614193b46aef75a14553e4",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-26 - Comparative.pdf",
+                        "comparative_report_url_name": "768b58f949414418a0c8015fbfb7a5a7"
+                    }
+                },
+                "event_start_date": "2024-02-25T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-02-12",
+        "c_sample_date": "2024-02-12",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.26,
+        "c_old": 1.71,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-02-12",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-02-11",
+                "event_end_date": "2024-02-12T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 667,
+                        "sample_date": "2024-02-12",
+                        "basic_report_id": 2534,
+                        "recipe_report_id": 2545,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-12.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-12 - Recipe.pdf",
+                        "basic_report_url_name": "cf88dfa11f3f4b7f82514e734bd8d140",
+                        "comparative_report_id": 2535,
+                        "recipe_report_url_name": "7fbbb7b697ac4a229bec08a3c84f5872",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-02-12 - Comparative.pdf",
+                        "comparative_report_url_name": "757808c9b4da480c80afd19b1ba267cc"
+                    }
+                },
+                "event_start_date": "2024-02-11T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-29",
+        "c_sample_date": "2024-01-29",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 1.81,
+        "c_old": 1.53,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-01-29",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-28",
+                "event_end_date": "2024-01-29T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 657,
+                        "sample_date": "2024-01-29",
+                        "basic_report_id": 2509,
+                        "recipe_report_id": 2517,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-29.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-29 - Recipe.pdf",
+                        "basic_report_url_name": "92248f352a154ca7ac063f1fe2ae1b33",
+                        "comparative_report_id": 2510,
+                        "recipe_report_url_name": "06e5d125313c4e0ba55bc91d13398ce5",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-29 - Comparative.pdf",
+                        "comparative_report_url_name": "832688fd4172425499db4d3c10118c2a"
+                    }
+                },
+                "event_start_date": "2024-01-28T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            },
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-28",
+                "event_end_date": "2024-01-29T15:46:27.847+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 260,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-01-28T15:46:27.847+05:00",
+                "event_description": "Plant Nutrition-Foliar Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-21",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2024-01-21",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-20",
+                "event_end_date": "2024-01-21T15:44:42.555+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 256,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-01-20T15:44:42.555+05:00",
+                "event_description": "Plant Nutrition-Foliar Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-20",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2024-01-20",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-19",
+                "event_end_date": "2024-01-20T16:45:35.582+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 268,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-01-19T16:45:35.582+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-15",
+        "c_sample_date": "2024-01-15",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.62,
+        "c_old": 2.49,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-01-15",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-14",
+                "event_end_date": "2024-01-15T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 644,
+                        "sample_date": "2024-01-15",
+                        "basic_report_id": 2491,
+                        "recipe_report_id": 2497,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-15.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-15 - Recipe.pdf",
+                        "basic_report_url_name": "1179f5b4d0054c318a97703ffaa99280",
+                        "comparative_report_id": 2492,
+                        "recipe_report_url_name": "c105e0093f14431ca88857466d2257af",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-15 - Comparative.pdf",
+                        "comparative_report_url_name": "27c88a1442d445099608919a0f914357"
+                    }
+                },
+                "event_start_date": "2024-01-14T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-10",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2024-01-10",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2024-01-09",
+                "event_end_date": "2024-01-10T16:43:11.763+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 267,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2024-01-09T16:43:11.763+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2024-01-01",
+        "c_sample_date": "2024-01-01",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 3.58,
+        "c_old": 4.18,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2024-01-01",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-31",
+                "event_end_date": "2024-01-01T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 643,
+                        "sample_date": "2024-01-01",
+                        "basic_report_id": 2489,
+                        "recipe_report_id": 2496,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-01.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-01 - Recipe.pdf",
+                        "basic_report_url_name": "0c71b69b531b492284f976e3b49996be",
+                        "comparative_report_id": 2490,
+                        "recipe_report_url_name": "04c7db5593af49dfa1911047e1a95ba7",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2024-01-01 - Comparative.pdf",
+                        "comparative_report_url_name": "8485b2d5e371435b8c16918859a2ba58"
+                    }
+                },
+                "event_start_date": "2023-12-31T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-31",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-12-31",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-30",
+                "event_end_date": "2023-12-31T16:41:50.995+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 266,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-12-30T16:41:50.995+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-24",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-12-24",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-23",
+                "event_end_date": "2023-12-24T15:59:41.714+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 257,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-12-23T15:59:41.714+05:00",
+                "event_description": "Plant Nutrition-Foliar Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-22",
+        "c_sample_date": "2023-12-22",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.71,
+        "c_old": 3.72,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2023-12-22",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-21",
+                "event_end_date": "2023-12-22T16:31:41.099+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 264,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-12-21T16:31:41.099+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            },
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-21",
+                "event_end_date": "2023-12-22T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 636,
+                        "sample_date": "2023-12-22",
+                        "basic_report_id": 2487,
+                        "recipe_report_id": 2495,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-22.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-22 - Recipe.pdf",
+                        "basic_report_url_name": "95d1749b42bb4bdc9f69e2301000d3fb",
+                        "comparative_report_id": 2488,
+                        "recipe_report_url_name": "fde4f2f644ae40f9a39693ca8e03d7b2",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-22 - Comparative.pdf",
+                        "comparative_report_url_name": "446e3d4b0e6749c0b7907981d615f8de"
+                    }
+                },
+                "event_start_date": "2023-12-21T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-12",
+        "c_sample_date": "2023-12-12",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 8.19,
+        "c_old": 6.43,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2023-12-12",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-11",
+                "event_end_date": "2023-12-12T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 635,
+                        "sample_date": "2023-12-12",
+                        "basic_report_id": 2485,
+                        "recipe_report_id": 2494,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-12.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-12 - Recipe.pdf",
+                        "basic_report_url_name": "d8175dbacd3346b8842f35fb3d470379",
+                        "comparative_report_id": 2486,
+                        "recipe_report_url_name": "c288f9060d4744ef9dc3adf91c9529c6",
+                        "comparative_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-12-12 - Comparative.pdf",
+                        "comparative_report_url_name": "ea1e6c0ba98b406db45d706b5f5bb7d2"
+                    }
+                },
+                "event_start_date": "2023-12-11T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-09",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-12-09",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-08",
+                "event_end_date": "2023-12-09T16:26:14.793+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 263,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-12-08T16:26:14.793+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-12-08",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-12-08",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-12-07",
+                "event_end_date": "2023-12-08T16:06:00.717+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 258,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-12-07T16:06:00.717+05:00",
+                "event_description": "Plant Nutrition-Foliar Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-11-27",
+        "c_sample_date": "2023-11-27",
+        "c_field_id": 1304,
+        "c_field_name": "Sera",
+        "c_crop_id": 94,
+        "c_crop_name": "Strawberry",
+        "c_element_name": "Zn - Zinc",
+        "c_young": 2.48,
+        "c_old": 1.24,
+        "c_opt_min": 1.55,
+        "c_opt_max": 2.95,
+        "calendar_day": "2023-11-27",
+        "calendar_data": [
+            {
+                "category": "SAP Report",
+                "ui_props": {
+                    "icon": "agro_sap.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "SAP Örnek Tarihi",
+                        "SAP Sample Date",
+                        "SAP Nümunə Tarixi"
+                    ],
+                    "border_color": "#5DBF56",
+                    "background_color": "#5DBF56"
+                },
+                "event_name": "SAP Sample Date",
+                "event_type": "sap_event",
+                "is_all_day": true,
+                "calendar_day": "2023-11-26",
+                "event_end_date": "2023-11-27T22:00:00+05:00",
+                "activity_summary": {
+                    "crop_id": 94,
+                    "field_id": 1304,
+                    "crop_name": "Strawberry",
+                    "field_name": "Sera",
+                    "report_count": 1,
+                    "crop_control_data": {
+                        "id": 601,
+                        "sample_date": "2023-11-27",
+                        "basic_report_id": 2484,
+                        "recipe_report_id": 2493,
+                        "basic_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-11-27.pdf",
+                        "recipe_report_name": "Berry Agro Tarım - Sera - Çilek - 2023-11-27 - Recipe.pdf",
+                        "basic_report_url_name": "2d0b062b7a0f4300a0d07900a9ae7d03",
+                        "comparative_report_id": null,
+                        "recipe_report_url_name": "8d731cab26684520a76fa241d98fcb33",
+                        "comparative_report_name": null,
+                        "comparative_report_url_name": null
+                    }
+                },
+                "event_start_date": "2023-11-26T22:00:00+05:00",
+                "event_description": "SAP Report For Strawberry"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-11-17",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-11-17",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-11-16",
+                "event_end_date": "2023-11-17T16:20:34.391+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 262,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-11-16T16:20:34.391+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    },
+    {
+        "event_date": "2023-11-02",
+        "c_sample_date": null,
+        "c_field_id": null,
+        "c_field_name": null,
+        "c_crop_id": null,
+        "c_crop_name": null,
+        "c_element_name": null,
+        "c_young": null,
+        "c_old": null,
+        "c_opt_min": null,
+        "c_opt_max": null,
+        "calendar_day": "2023-11-02",
+        "calendar_data": [
+            {
+                "category": "Activity",
+                "ui_props": {
+                    "icon": "agro_feed.svg",
+                    "class_name": "calender-event-box",
+                    "event_name": [
+                        "Bitki Besleme",
+                        "Plant Nutrition",
+                        "Bitki Qidası"
+                    ],
+                    "border_color": "#F5CD59",
+                    "background_color": "#F5CD59"
+                },
+                "event_name": "Plant Nutrition",
+                "event_type": "activity_event",
+                "is_all_day": true,
+                "calendar_day": "2023-11-01",
+                "event_end_date": "2023-11-02T15:56:08.758+05:00",
+                "activity_summary": {
+                    "crops": [
+                        {
+                            "id": 94,
+                            "name": "Strawberry"
+                        }
+                    ],
+                    "field": {
+                        "id": 1304,
+                        "name": "Sera",
+                        "field_id": 1304,
+                        "field_name": "Sera",
+                        "activity_location_id": 261,
+                        "activity_location_type_id": 2
+                    }
+                },
+                "event_start_date": "2023-11-01T15:56:08.758+05:00",
+                "event_description": "Plant Nutrition-Irrigation Application"
+            }
+        ]
+    }
+]
