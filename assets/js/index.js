@@ -2,7 +2,7 @@ const chart = echarts.init(document.getElementById("myChart"));
 
 const SYMBOL_SIZE = 25;
 
-fetch('data/sample_calendar_data.json')
+fetch('data/sample_data.json')
     .then(response => response.json())
     .then(data => {
         jsonData = data;
@@ -64,6 +64,8 @@ const createChart = (sampleData) => {
 
         // If calendar_data exists, push it to activityData
         if (item.calendar_data && item.calendar_data.length > 0) {
+            if (isJSON(item.calendar_data))
+                item.calendar_data = JSON.parse(item.calendar_data)
             item.calendar_data.map(activity => {
                 activityData.push(activity);
             })
@@ -92,7 +94,7 @@ const createChart = (sampleData) => {
         });
 
         // Add jitter to the y-axis value to avoid overlapping points
-        const jitteredYValue = closestData[1] + (Math.random() - 0.2) * 1.8; // Adjust the jitter range as needed
+        const jitteredYValue = closestData[1] + (Math.random() - 0.2) * increment; // Adjust the jitter range as needed
 
         const iconFileName = activity.ui_props && activity.ui_props.icon ? activity.ui_props.icon : 'agro_planting.svg';
         const iconPath = `image://assets/icons/${iconFileName}`;
@@ -104,6 +106,15 @@ const createChart = (sampleData) => {
             description: activity.event_description || 'No description available',
         };
     });
+
+    function isJSON(str) {
+        try {
+            JSON.parse(str);
+            return true;
+        } catch (e) {
+            return false;
+        }
+    }
 
     // Option configuration
     const option = {
