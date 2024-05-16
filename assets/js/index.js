@@ -1,6 +1,6 @@
 const chart = echarts.init(document.getElementById("myChart"));
 
-const SYMBOL_SIZE = 25;
+const SYMBOL_SIZE = 20;
 
 fetch('data/sample_data.json')
     .then(response => response.json())
