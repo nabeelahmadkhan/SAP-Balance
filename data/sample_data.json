@@ -60,21 +60,6 @@
         "calendar_data": "[{\"category\": \"SAP Report\", \"ui_props\": {\"icon\": \"agro_sap.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"SAP Örnek Tarihi\", \"SAP Sample Date\", \"SAP Nümunə Tarixi\"], \"border_color\": \"#5DBF56\", \"background_color\": \"#5DBF56\"}, \"event_name\": \"SAP Sample Date\", \"event_type\": \"sap_event\", \"is_all_day\": true, \"calendar_day\": \"2024-03-31\", \"event_end_date\": \"2024-04-01T22:00:00+05:00\", \"activity_summary\": {\"crop_id\": 94, \"field_id\": 1304, \"crop_name\": \"Strawberry\", \"field_name\": \"Sera\", \"report_count\": 1, \"crop_control_data\": {\"id\": 826, \"sample_date\": \"2024-04-01\", \"basic_report_id\": 3047, \"recipe_report_id\": 3064, \"basic_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-04-01.pdf\", \"recipe_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-04-01 - Recipe.pdf\", \"basic_report_url_name\": \"0d015d892a194647acffc3e465fa2371\", \"comparative_report_id\": 3048, \"recipe_report_url_name\": \"5609dd82e36b4bc4a94b31922899c654\", \"comparative_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-04-01 - Comparative.pdf\", \"comparative_report_url_name\": \"6ce5d79b6b7c46048a79348e631073e7\"}}, \"event_start_date\": \"2024-03-31T22:00:00+05:00\", \"event_description\": \"SAP Report For Strawberry\"}]"
     },
     {
-        "event_date": "2024-03-31",
-        "c_sample_date": null,
-        "c_field_id": null,
-        "c_field_name": null,
-        "c_crop_id": null,
-        "c_crop_name": null,
-        "c_element_name": null,
-        "c_young": null,
-        "c_old": null,
-        "c_opt_min": null,
-        "c_opt_max": null,
-        "calendar_day": "2024-03-31",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2024-03-30\", \"event_end_date\": \"2024-03-31T19:16:04+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 554, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2024-03-30T19:16:04+05:00\", \"event_description\": \"Plant Nutrition-Irrigation Application\"}]"
-    },
-    {
         "event_date": "2024-03-25",
         "c_sample_date": "2024-03-25",
         "c_field_id": 1304,
@@ -165,7 +150,7 @@
         "calendar_data": "[{\"category\": \"SAP Report\", \"ui_props\": {\"icon\": \"agro_sap.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"SAP Örnek Tarihi\", \"SAP Sample Date\", \"SAP Nümunə Tarixi\"], \"border_color\": \"#5DBF56\", \"background_color\": \"#5DBF56\"}, \"event_name\": \"SAP Sample Date\", \"event_type\": \"sap_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-28\", \"event_end_date\": \"2024-01-29T22:00:00+05:00\", \"activity_summary\": {\"crop_id\": 94, \"field_id\": 1304, \"crop_name\": \"Strawberry\", \"field_name\": \"Sera\", \"report_count\": 1, \"crop_control_data\": {\"id\": 657, \"sample_date\": \"2024-01-29\", \"basic_report_id\": 2509, \"recipe_report_id\": 2517, \"basic_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-29.pdf\", \"recipe_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-29 - Recipe.pdf\", \"basic_report_url_name\": \"92248f352a154ca7ac063f1fe2ae1b33\", \"comparative_report_id\": 2510, \"recipe_report_url_name\": \"06e5d125313c4e0ba55bc91d13398ce5\", \"comparative_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-29 - Comparative.pdf\", \"comparative_report_url_name\": \"832688fd4172425499db4d3c10118c2a\"}}, \"event_start_date\": \"2024-01-28T22:00:00+05:00\", \"event_description\": \"SAP Report For Strawberry\"}, {\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-28\", \"event_end_date\": \"2024-01-29T15:46:27.847+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 260, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2024-01-28T15:46:27.847+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
     },
     {
-        "event_date": "2024-01-21",
+        "event_date": "2024-01-12",
         "c_sample_date": null,
         "c_field_id": null,
         "c_field_name": null,
@@ -176,8 +161,8 @@
         "c_old": null,
         "c_opt_min": null,
         "c_opt_max": null,
-        "calendar_day": "2024-01-21",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-20\", \"event_end_date\": \"2024-01-21T15:44:42.555+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 256, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2024-01-20T15:44:42.555+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
+        "calendar_day": "2024-01-12",
+        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-20\", \"event_end_date\": \"2024-01-12T15:44:42.555+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 256, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2024-01-20T15:44:42.555+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
     },
     {
         "event_date": "2024-01-20",
@@ -210,21 +195,6 @@
         "calendar_data": "[{\"category\": \"SAP Report\", \"ui_props\": {\"icon\": \"agro_sap.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"SAP Örnek Tarihi\", \"SAP Sample Date\", \"SAP Nümunə Tarixi\"], \"border_color\": \"#5DBF56\", \"background_color\": \"#5DBF56\"}, \"event_name\": \"SAP Sample Date\", \"event_type\": \"sap_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-14\", \"event_end_date\": \"2024-01-15T22:00:00+05:00\", \"activity_summary\": {\"crop_id\": 94, \"field_id\": 1304, \"crop_name\": \"Strawberry\", \"field_name\": \"Sera\", \"report_count\": 1, \"crop_control_data\": {\"id\": 644, \"sample_date\": \"2024-01-15\", \"basic_report_id\": 2491, \"recipe_report_id\": 2497, \"basic_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-15.pdf\", \"recipe_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-15 - Recipe.pdf\", \"basic_report_url_name\": \"1179f5b4d0054c318a97703ffaa99280\", \"comparative_report_id\": 2492, \"recipe_report_url_name\": \"c105e0093f14431ca88857466d2257af\", \"comparative_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2024-01-15 - Comparative.pdf\", \"comparative_report_url_name\": \"27c88a1442d445099608919a0f914357\"}}, \"event_start_date\": \"2024-01-14T22:00:00+05:00\", \"event_description\": \"SAP Report For Strawberry\"}]"
     },
     {
-        "event_date": "2024-01-10",
-        "c_sample_date": null,
-        "c_field_id": null,
-        "c_field_name": null,
-        "c_crop_id": null,
-        "c_crop_name": null,
-        "c_element_name": null,
-        "c_young": null,
-        "c_old": null,
-        "c_opt_min": null,
-        "c_opt_max": null,
-        "calendar_day": "2024-01-10",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2024-01-09\", \"event_end_date\": \"2024-01-10T16:43:11.763+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 267, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2024-01-09T16:43:11.763+05:00\", \"event_description\": \"Plant Nutrition-Irrigation Application\"}]"
-    },
-    {
         "event_date": "2024-01-01",
         "c_sample_date": "2024-01-01",
         "c_field_id": 1304,
@@ -253,36 +223,6 @@
         "c_opt_max": null,
         "calendar_day": "2023-12-31",
         "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-30\", \"event_end_date\": \"2023-12-31T16:41:50.995+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 266, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-30T16:41:50.995+05:00\", \"event_description\": \"Plant Nutrition-Irrigation Application\"}]"
-    },
-    {
-        "event_date": "2023-12-24",
-        "c_sample_date": null,
-        "c_field_id": null,
-        "c_field_name": null,
-        "c_crop_id": null,
-        "c_crop_name": null,
-        "c_element_name": null,
-        "c_young": null,
-        "c_old": null,
-        "c_opt_min": null,
-        "c_opt_max": null,
-        "calendar_day": "2023-12-24",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-23\", \"event_end_date\": \"2023-12-24T15:59:41.714+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 257, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-23T15:59:41.714+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
-    },
-    {
-        "event_date": "2023-12-22",
-        "c_sample_date": "2023-12-22",
-        "c_field_id": 1304,
-        "c_field_name": "Sera",
-        "c_crop_id": 94,
-        "c_crop_name": "Strawberry",
-        "c_element_name": "S - Sulfur",
-        "c_young": 192,
-        "c_old": 164,
-        "c_opt_min": 50,
-        "c_opt_max": 200,
-        "calendar_day": "2023-12-22",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-21\", \"event_end_date\": \"2023-12-22T16:31:41.099+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 264, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-21T16:31:41.099+05:00\", \"event_description\": \"Plant Nutrition-Irrigation Application\"}, {\"category\": \"SAP Report\", \"ui_props\": {\"icon\": \"agro_sap.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"SAP Örnek Tarihi\", \"SAP Sample Date\", \"SAP Nümunə Tarixi\"], \"border_color\": \"#5DBF56\", \"background_color\": \"#5DBF56\"}, \"event_name\": \"SAP Sample Date\", \"event_type\": \"sap_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-21\", \"event_end_date\": \"2023-12-22T22:00:00+05:00\", \"activity_summary\": {\"crop_id\": 94, \"field_id\": 1304, \"crop_name\": \"Strawberry\", \"field_name\": \"Sera\", \"report_count\": 1, \"crop_control_data\": {\"id\": 636, \"sample_date\": \"2023-12-22\", \"basic_report_id\": 2487, \"recipe_report_id\": 2495, \"basic_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2023-12-22.pdf\", \"recipe_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2023-12-22 - Recipe.pdf\", \"basic_report_url_name\": \"95d1749b42bb4bdc9f69e2301000d3fb\", \"comparative_report_id\": 2488, \"recipe_report_url_name\": \"fde4f2f644ae40f9a39693ca8e03d7b2\", \"comparative_report_name\": \"Berry Agro Tarım - Sera - Çilek - 2023-12-22 - Comparative.pdf\", \"comparative_report_url_name\": \"446e3d4b0e6749c0b7907981d615f8de\"}}, \"event_start_date\": \"2023-12-21T22:00:00+05:00\", \"event_description\": \"SAP Report For Strawberry\"}]"
     },
     {
         "event_date": "2023-12-12",
@@ -315,7 +255,7 @@
         "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-08\", \"event_end_date\": \"2023-12-09T16:26:14.793+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 263, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-08T16:26:14.793+05:00\", \"event_description\": \"Plant Nutrition-Irrigation Application\"}]"
     },
     {
-        "event_date": "2023-12-08",
+        "event_date": "2023-12-18",
         "c_sample_date": null,
         "c_field_id": null,
         "c_field_name": null,
@@ -326,8 +266,8 @@
         "c_old": null,
         "c_opt_min": null,
         "c_opt_max": null,
-        "calendar_day": "2023-12-08",
-        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-07\", \"event_end_date\": \"2023-12-08T16:06:00.717+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 258, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-07T16:06:00.717+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
+        "calendar_day": "2023-12-18",
+        "calendar_data": "[{\"category\": \"Activity\", \"ui_props\": {\"icon\": \"agro_feed.svg\", \"class_name\": \"calender-event-box\", \"event_name\": [\"Bitki Besleme\", \"Plant Nutrition\", \"Bitki Qidası\"], \"border_color\": \"#F5CD59\", \"background_color\": \"#F5CD59\"}, \"event_name\": \"Plant Nutrition\", \"event_type\": \"activity_event\", \"is_all_day\": true, \"calendar_day\": \"2023-12-07\", \"event_end_date\": \"2023-12-18T16:06:00.717+05:00\", \"activity_summary\": {\"crops\": [{\"id\": 94, \"name\": \"Strawberry\"}], \"field\": {\"id\": 1304, \"name\": \"Sera\", \"field_id\": 1304, \"field_name\": \"Sera\", \"activity_location_id\": 258, \"activity_location_type_id\": 2}}, \"event_start_date\": \"2023-12-07T16:06:00.717+05:00\", \"event_description\": \"Plant Nutrition-Foliar Application\"}]"
     },
     {
         "event_date": "2023-11-27",

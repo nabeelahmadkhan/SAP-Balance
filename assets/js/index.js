@@ -34,6 +34,53 @@ function aggregateDailyMaxValues(seriesData) {
     return interpolatedValues;
 }
 
+function addRandomPoints(data, minValue) {
+    const newData = [];
+    const timestampMap = new Map();
+    // Group data by timestamp
+    data.forEach(([timestamp, value]) => {
+        const timestampKey = timestamp.toString(); // Convert timestamp to string for comparison
+        if (!timestampMap.has(timestampKey)) {
+            timestampMap.set(timestampKey, []);
+        }
+        timestampMap.get(timestampKey).push(value);
+    });
+
+    // Add random points to only one value in groups with more than one value
+    timestampMap.forEach((values, timestampKey) => {
+        if (values.length > 1) {
+            // Get a random index within the range of the values array
+            const randomIndex = Math.floor(Math.random() * values.length);
+            // Iterate over the values array, adding random points only to the selected index
+            values.forEach((value, index) => {
+                const randomPoints = Math.random() + (minValue / 3);
+                if (index === randomIndex) {
+                    newData.push([parseInt(timestampKey), value]); // Convert timestamp back to integer
+                } else {
+                    newData.push([parseInt(timestampKey), value + randomPoints]); // Convert timestamp back to integer
+                }
+            });
+        } else {
+            // If there's only one value, add it to the new data array without modification
+            values.forEach((value) => {
+                newData.push([parseInt(timestampKey), value]); // Convert timestamp back to integer
+            });
+        }
+    });
+
+    return newData;
+}
+
+
+function isJSON(str) {
+    try {
+        JSON.parse(str);
+        return true;
+    } catch (e) {
+        return false;
+    }
+}
+
 const createChart = (sampleData) => {
     // Arrays to store data for young leaf, old leaf, and activities
     const young_leaf_data = [], old_leaf_data = [], activityData = [];
@@ -72,9 +119,12 @@ const createChart = (sampleData) => {
         }
     });
 
+    // console.log('activity daata', addDateFlag(activityData))
+
     const actualData = [...young_leaf_data, ...old_leaf_data];
     const dailyData = aggregateDailyMaxValues(actualData);
     const _maxValue = Math.max(...dailyData.map(item => item.value));
+    const _minValue = Math.min(...dailyData.map(item => item.value));
     const increment = _maxValue * 0.18;
 
     const adjustedData = dailyData.map(item => [
@@ -82,39 +132,34 @@ const createChart = (sampleData) => {
         item.value + increment
     ]);
 
-    const activityPoints = activityData.map(activity => {
+    let closestData = []
+    activityData.map(activity => {
         const activityDate = new Date(activity.event_end_date).getTime();
 
         // Find the closest data point
-        const closestData = adjustedData.reduce((prev, curr) => {
+        closestData.push(adjustedData.reduce((prev, curr) => {
             const prevDiff = Math.abs(curr[0] - activityDate);
             const currDiff = Math.abs(prev[0] - activityDate);
+            return prevDiff < currDiff ? (curr) : prev;
+        }));
+    })
 
-            return prevDiff < currDiff ? curr : prev;
-        });
+    closestData = addRandomPoints(closestData, _minValue);
 
-        // Add jitter to the y-axis value to avoid overlapping points
-        const jitteredYValue = closestData[1] + (Math.random() - 0.2) * increment; // Adjust the jitter range as needed
+    const activityPoints = activityData.map((activity, idx) => {
 
+        const activityDate = new Date(activity.event_end_date).getTime();
         const iconFileName = activity.ui_props && activity.ui_props.icon ? activity.ui_props.icon : 'agro_planting.svg';
         const iconPath = `image://assets/icons/${iconFileName}`;
         return {
             name: activity.event_name,
-            value: [activityDate, jitteredYValue], // Use the jittered y-axis value
+            value: [activityDate, closestData[idx][1] + Math.random()], // Use the jittered y-axis value
             symbolSize: SYMBOL_SIZE,
             symbol: iconPath,
             description: activity.event_description || 'No description available',
         };
     });
 
-    function isJSON(str) {
-        try {
-            JSON.parse(str);
-            return true;
-        } catch (e) {
-            return false;
-        }
-    }
 
     // Option configuration
     const option = {
@@ -165,7 +210,18 @@ const createChart = (sampleData) => {
                 }
             }
         },
-        yAxis: {},
+        yAxis: {
+            type: 'value',
+            axisLabel: {
+                fontSize: 12,
+            },
+            splitLine: {
+                show: true,
+                lineStyle: {
+                    type: 'dashed'
+                }
+            },
+        },
         legend: {
             data: ['Young', 'Old', 'Optimum Range', 'Activity'],
             bottom: 0,
@@ -185,7 +241,6 @@ const createChart = (sampleData) => {
                 data: actualData.filter(item => item.type === 'young_leaf').map(item => [item.date.getTime(), item.value]),
                 type: "line",
                 symbol: "circle",
-                symbolSize: 10,
 
                 connectNulls: true,
                 lineStyle: { color: 'rgb(20, 200, 20)' },
@@ -239,7 +294,7 @@ const createChart = (sampleData) => {
             },
             {
                 data: activityPoints,
-                symbolSize: 30,
+                symbolSize: 20,
                 name: 'Activity',
                 type: 'scatter',
                 symbol: 'circle',
@@ -250,6 +305,7 @@ const createChart = (sampleData) => {
                         opacity: 1
                     }
                 },
+                labelLayout: { hideOverlap: true, dy: 10 },
                 events: {
                     onClick: function (params) {
                         alert('s')

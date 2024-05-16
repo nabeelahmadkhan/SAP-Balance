@@ -982,59 +982,6 @@
         ]
     },
     {
-        "event_date": "2023-12-24",
-        "c_sample_date": null,
-        "c_field_id": null,
-        "c_field_name": null,
-        "c_crop_id": null,
-        "c_crop_name": null,
-        "c_element_name": null,
-        "c_young": null,
-        "c_old": null,
-        "c_opt_min": null,
-        "c_opt_max": null,
-        "calendar_day": "2023-12-24",
-        "calendar_data": [
-            {
-                "category": "Activity",
-                "ui_props": {
-                    "icon": "agro_feed.svg",
-                    "class_name": "calender-event-box",
-                    "event_name": [
-                        "Bitki Besleme",
-                        "Plant Nutrition",
-                        "Bitki Qidası"
-                    ],
-                    "border_color": "#F5CD59",
-                    "background_color": "#F5CD59"
-                },
-                "event_name": "Plant Nutrition",
-                "event_type": "activity_event",
-                "is_all_day": true,
-                "calendar_day": "2023-12-23",
-                "event_end_date": "2023-12-24T15:59:41.714+05:00",
-                "activity_summary": {
-                    "crops": [
-                        {
-                            "id": 94,
-                            "name": "Strawberry"
-                        }
-                    ],
-                    "field": {
-                        "id": 1304,
-                        "name": "Sera",
-                        "field_id": 1304,
-                        "field_name": "Sera",
-                        "activity_location_id": 257,
-                        "activity_location_type_id": 2
-                    }
-                },
-                "event_start_date": "2023-12-23T15:59:41.714+05:00",
-                "event_description": "Plant Nutrition-Foliar Application"
-            }
-        ]
-    },
-    {
         "event_date": "2023-12-22",
         "c_sample_date": "2023-12-22",
         "c_field_id": 1304,
@@ -1182,59 +1129,6 @@
                 },
                 "event_start_date": "2023-12-11T22:00:00+05:00",
                 "event_description": "SAP Report For Strawberry"
-            }
-        ]
-    },
-    {
-        "event_date": "2023-12-09",
-        "c_sample_date": null,
-        "c_field_id": null,
-        "c_field_name": null,
-        "c_crop_id": null,
-        "c_crop_name": null,
-        "c_element_name": null,
-        "c_young": null,
-        "c_old": null,
-        "c_opt_min": null,
-        "c_opt_max": null,
-        "calendar_day": "2023-12-09",
-        "calendar_data": [
-            {
-                "category": "Activity",
-                "ui_props": {
-                    "icon": "agro_feed.svg",
-                    "class_name": "calender-event-box",
-                    "event_name": [
-                        "Bitki Besleme",
-                        "Plant Nutrition",
-                        "Bitki Qidası"
-                    ],
-                    "border_color": "#F5CD59",
-                    "background_color": "#F5CD59"
-                },
-                "event_name": "Plant Nutrition",
-                "event_type": "activity_event",
-                "is_all_day": true,
-                "calendar_day": "2023-12-08",
-                "event_end_date": "2023-12-09T16:26:14.793+05:00",
-                "activity_summary": {
-                    "crops": [
-                        {
-                            "id": 94,
-                            "name": "Strawberry"
-                        }
-                    ],
-                    "field": {
-                        "id": 1304,
-                        "name": "Sera",
-                        "field_id": 1304,
-                        "field_name": "Sera",
-                        "activity_location_id": 263,
-                        "activity_location_type_id": 2
-                    }
-                },
-                "event_start_date": "2023-12-08T16:26:14.793+05:00",
-                "event_description": "Plant Nutrition-Irrigation Application"
             }
         ]
     },
